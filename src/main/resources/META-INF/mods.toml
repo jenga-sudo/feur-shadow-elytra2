@@ -4,7 +4,7 @@ license="MIT"
 issueTrackerURL=""
 [[mods]]
 modId="feur_shadow_elytra"
-version="{{version}}"
+version="${file.jarVersion}"
 displayName="Feur Shadow Elytra (Repainted)"
 authors="you"
 description='''Adds separate Elytra items for each Feur Elytra Wings variant, rendering with the original textures.'''
