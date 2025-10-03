@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+[[mods]]
+modId="feur_shadow_elytra"
+version="{{version}}"
+displayName="Feur Shadow Elytra (Repainted)"
+authors="you"
+description='''Adds separate Elytra items for each Feur Elytra Wings variant, rendering with the original textures.'''
+[[dependencies.feur_shadow_elytra]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.feur_shadow_elytra]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+# Not strictly required, but recommend having Feur Elytra Wings installed for textures we reference
+[[dependencies.feur_shadow_elytra]]
+    modId="feur_elytra_wings"
+    mandatory=false
+    versionRange="[*]"
+    ordering="AFTER"
+    side="CLIENT"
